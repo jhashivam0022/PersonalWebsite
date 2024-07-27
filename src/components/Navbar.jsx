@@ -3,6 +3,7 @@ import "./Navbar.css";
 import { Link, NavLink } from "react-router-dom";
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
