@@ -52,7 +52,7 @@ export const Navbar = () => {
 
         <DropdownButton id="dropdown-basic-button" title="IT Support">
           <Dropdown.Item href="https://www.helpdesk.com/">iTop</Dropdown.Item>
-          <Dropdown.Item href="https://www.mca.gov.in/content/mca/global/en/home.html">OneM</Dropdown.Item>
+          <Dropdown.Item href="https://www.mca.gov.in/content/mca/global/en/home.html">OneMO</Dropdown.Item>
           <Dropdown.Item href="https://www.naukri.com/">PLM</Dropdown.Item>
         </DropdownButton>
         <li>
