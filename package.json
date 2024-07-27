@@ -1,7 +1,7 @@
 {
   "homepage": "https://jhashivam0022.github.io/PersonalWebsite",
   "name": "updatedesgin",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
