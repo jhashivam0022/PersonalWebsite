@@ -2,7 +2,7 @@
   "name": "updatedesgin",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://jhashivam0022.github.io/PersonalWebsite",
+  "homepage": "https://jhashivam0022.github.io/personalwebsite",
   "type": "module",
   "scripts": {
     "dev": "vite",
