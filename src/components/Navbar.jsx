@@ -51,16 +51,34 @@ export const Navbar = () => {
           <Dropdown.Item href="https://outlook.live.com/mail/about/index_en.html">Outlook</Dropdown.Item>
         </DropdownButton>
 
-        <DropdownButton id="dropdown-basic-button" title="PMO">
-          <Dropdown.Item href="https://www.atlassian.com/software/jira">JIRA</Dropdown.Item>
-          <Dropdown.Item href="https://www.atlassian.com/software/confluence">Confluence</Dropdown.Item>
-          <Dropdown.Item href="https://bitbucket.org/product/">BitBucket</Dropdown.Item>
+        <DropdownButton id="dropdown-basic-button" title="Work Force Management">
+          <Dropdown.Item href="">Time & Attendance</Dropdown.Item>
+          <Dropdown.Item href="">Leaves</Dropdown.Item>
+          <Dropdown.Item href="">Remote Work</Dropdown.Item>
+          <Dropdown.Item href="">Performance Managment</Dropdown.Item>
+        </DropdownButton>
+        
+        <DropdownButton id="dropdown-basic-button" title="Talent Acquisition">
+          <Dropdown.Item href="">WorkForce Planning</Dropdown.Item>
+          <Dropdown.Item href="">Recruitment</Dropdown.Item>
+          <Dropdown.Item href="">Onboarding</Dropdown.Item>
+          <Dropdown.Item href="">Gap Analysis</Dropdown.Item>
         </DropdownButton>
 
-        <DropdownButton id="dropdown-basic-button" title="IT Support">
-          <Dropdown.Item href="https://www.helpdesk.com/">iTop</Dropdown.Item>
-          <Dropdown.Item href="https://www.mca.gov.in/content/mca/global/en/home.html">OneMO</Dropdown.Item>
-          <Dropdown.Item href="https://www.naukri.com/">PLM</Dropdown.Item>
+        <DropdownButton id="dropdown-basic-button" title="Payroll & Expense">
+          <Dropdown.Item href="https://www.helpdesk.com/">payroll & Management</Dropdown.Item>
+          <Dropdown.Item href="">Awards & Recognition</Dropdown.Item>
+        </DropdownButton>
+        
+        <DropdownButton id="dropdown-basic-button" title="Asset Tracking (SW)">
+          <Dropdown.Item href="">L&D Skillmap</Dropdown.Item>
+          <Dropdown.Item href="">IT-itop</Dropdown.Item>
+        </DropdownButton>
+        
+        <DropdownButton id="dropdown-basic-button" title="CI/CD">
+          {/* <Dropdown.Item href="">JIRA</Dropdown.Item>
+          <Dropdown.Item href="">Confluence</Dropdown.Item>
+          <Dropdown.Item href="">BitBucket</Dropdown.Item> */}
         </DropdownButton>
         <li>
           <NavLink to="/help" activeClassName="active">Help</NavLink>
