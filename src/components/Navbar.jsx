@@ -32,9 +32,9 @@ export const Navbar = () => {
         <li>
           <Link to="/" className="title">Company LOGO</Link>
         </li>
-        <li>
+        {/* <li>
           <NavLink to="/about" activeClassName="active">About</NavLink>
-        </li>
+        </li> */}
 
         {/* <li>
           <NavLink to="/contact" activeClassName="active">Contact</NavLink>
