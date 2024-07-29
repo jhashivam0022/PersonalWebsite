@@ -40,8 +40,15 @@ export const Navbar = () => {
         {/* <li>
           <NavLink to="/contact" activeClassName="active">Contact</NavLink>
         </li> */}
-        <DropdownButton id="dropdown-basic-button" title="HR">
-          <Dropdown.Item href="https://hrmshry.nic.in/">MEMS</Dropdown.Item>
+        <DropdownButton id="dropdown-basic-button" title="Project Management">
+          <Dropdown.Item href="">Project Requirements</Dropdown.Item>
+          <Dropdown.Item href="">OTDs/KPIs</Dropdown.Item>
+          <Dropdown.Item href="">Risk Management</Dropdown.Item>
+          <Dropdown.Item href="">SOW/Quarterly</Dropdown.Item>
+          <Dropdown.Item href="">Reports</Dropdown.Item>
+          <Dropdown.Item href="">Budgetting</Dropdown.Item>
+          <Dropdown.Item href="">Innovation (PLM)</Dropdown.Item>
+          <Dropdown.Item href="">Thrid Party Management</Dropdown.Item>
           <Dropdown.Item href="https://outlook.live.com/mail/about/index_en.html">Outlook</Dropdown.Item>
         </DropdownButton>
 
