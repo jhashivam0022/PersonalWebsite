@@ -338,10 +338,12 @@ nav .menu span {
     }
 
     .dropdown-menu {
-        width: 100%;
-        position: relative;
+        width: 100vw;
+        position: absolute;
         left: 0;
-        /* Align the dropdown to the screen edges on mobile */
+        top: calc(100% + 5px); /* Adjust as needed for spacing */
+        z-index: 1000;
+        border-radius: 0; /* Remove border-radius for full width */
     }
 
     nav ul li a {
